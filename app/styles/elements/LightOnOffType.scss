@@ -1,0 +1,22 @@
+.OnOffContainer{
+	.name{
+		flex:1 1 auto;
+		font-size:1.5em;
+		display:flex;
+		align-content:center;
+		justify-content:flex-start;
+		margin-left:10px;
+
+	}
+	.toggle{
+		flex:0 1 auto;
+		margin-right:10px;
+	}
+	border-bottom: 2px solid #CBCBCB;
+	height:120px;
+	display:fleX;
+	align-content:center;
+	justify-content:center;
+	flex-direction:row;
+	align-items:center;
+}

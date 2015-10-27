@@ -1,0 +1,39 @@
+@import 'vars';
+@import 'typography';
+@import 'base';
+
+@import 'elements/LightDimType';
+@import 'elements/AppleCircle';
+@import 'elements/TvButtons';
+@import 'elements/LightOnOffType';
+
+html,body{
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.header{
+  text-align:center;
+  top:0;
+  left:0;
+}
+
+.flex-container{
+  display:flex;
+  flex-direction:column;
+  flex-wrap:nowrap;
+  justify-content:flex-start;
+  align-content:center;
+  align-items:center;
+  height:calc(100% - 64px);
+}
+
+
+#app{
+  height:100%;
+ }
+
+.appContainer{
+	height:100%;
+}

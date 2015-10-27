@@ -1,0 +1,46 @@
+.sliderContainer{
+  .top{
+    .name{
+      margin-left:10px;
+      font-size:1.5em;
+    }
+    .percent{
+      margin-right:10px;
+      font-size:1.5em;
+    }
+
+    width:100%;
+    min-height:40%;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end
+  }
+  .bottom{
+    .button{
+      flex: 0 1 auto;
+    }
+    .slider{
+      flex:1 1 auto;
+      padding-left:10px;
+      padding-right:10px;
+
+
+    }
+    width:100%;
+    min-height:60%;
+    display:flex;
+    flex-direction: row;
+    align-content:stretch;
+   
+  }
+
+  border-bottom:2px solid #CBCBCB;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: flex-start;
+  height:120px;
+
+}
